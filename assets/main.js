@@ -78,7 +78,6 @@ $("#add-button").on("click", function(event) {
 $("#buttons_go_here").on("click", ".country", function() {
   $("#gifs-go-here").empty();
   $("#out-of-giphs-text").text("");
-  $("#see-more-button").removeClass("d-none");
 
   //setting the text to nothing
   $("#out-of-giphs-text").text("");
@@ -112,6 +111,7 @@ $("#buttons_go_here").on("click", ".country", function() {
       gifDiv.prepend(newGif);
 
       $("#gifs-go-here").prepend(gifDiv);
+      $("#see-more-button").removeClass("d-none");
     }
   });
 });
