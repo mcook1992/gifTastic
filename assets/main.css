@@ -1,0 +1,42 @@
+img {
+  display: inline-block;
+  margin: auto;
+}
+
+.country-gif {
+  display: inline-block;
+  width: 40%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  display: flex; /* 2. display flex to the rescue */
+  flex-direction: row;
+}
+
+button {
+  margin: 5px;
+}
+
+.page-header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 90%;
+  background-color: green;
+  padding: 20px;
+  color: aliceblue;
+}
+
+button {
+  background-color: green;
+  color: aliceblue;
+}
+
+#text-container {
+  text-align: center;
+}

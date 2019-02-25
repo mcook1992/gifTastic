@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>DISCOVER THE WORLD THROUGH GIFS</h1>
+        <h6>
+          Click on a location to explore, or type in a place you're curious
+          about.
+          <br />
+        </h6>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="buttons_go_here"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-11 form-holder">
+          <form id="submit-form">
+            <!-- <label for="word-input">type something here</label> -->
+            <input
+              type="text"
+              id="word-input"
+              placeholder="Type a city, state, or country name here"
+            /><br />
+
+            <!-- Button triggers new movie to be added -->
+            <input id="add-button" type="submit" value="Add your destination" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="gifs-go-here"></div>
+        </div>
+        <!-- <div class="col-md-1"></div> -->
+      </div>
+    </div>
+
+    <div class="container" id="text-container">
+      <p id="out-of-giphs-text"></p>
+    </div>
+
+    <div class="container">
+      <button id="see-more-button" class="d-none">See More</button>
+    </div>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>
