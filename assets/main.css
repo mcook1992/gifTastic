@@ -21,6 +21,7 @@ form {
 
 button {
   margin: 5px;
+  margin-left: 0px;
 }
 
 .page-header {
@@ -39,4 +40,26 @@ button {
 
 #text-container {
   text-align: center;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+  img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  @media only screen and (max-width: 668px) {
+    img {
+      max-width: 150px;
+      max-height: 150px;
+    }
 }
